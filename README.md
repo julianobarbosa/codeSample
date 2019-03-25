@@ -41,3 +41,13 @@ Using CODE
     - Se o seu teste é genuíno, ou seja, se foi você quem o escreveu (evite soluções prontas, isto causará a sua imediata desclassificação).
 ## Entrega
     Você deve versionar o seu desafio no ​git​ desde o início. Para hospedá-lo remotamente, escolha entre Github​ e ​Bitbucket​. Depois de empurrar o seu progresso à plataforma escolhida, compartilhe conosco o link do mesmo.
+
+# Install
+```console
+cd codeSample
+python -m venv .codeSample
+source .codeSample/bin/activate
+pip install -r requirements-dev.txt
+cp contrib/env-sample .env
+python manage.py test
+```
