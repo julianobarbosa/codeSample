@@ -10,3 +10,6 @@ class ArtistaModelTest(TestCase):
 
     def test_create(self):
         self.assertTrue(Artista.object.exists())
+
+    def test_str(self):
+        self.assertEqual('Pink Floyd', str(self.obj))
