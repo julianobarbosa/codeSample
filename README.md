@@ -9,8 +9,7 @@ Using CODE
     - A base de dados deve ser PostgreSQL;
 
 ## Manifesto
-    A finalidade deste desafio é testar as suas habilidades e conhecimento de construção de bases de dados
-    usando Django, assim como a otimização de queries utilizando a linguagem de programação Python.
+    A finalidade deste desafio é testar as suas habilidades e conhecimento de construção de bases de dados usando Django, assim como a otimização de queries utilizando a linguagem de programação Python.
 ## Objetivo
     O seu objetivo será criar um projeto Django de administração de álbuns de música e otimizar uma de suas
     queries.
